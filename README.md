@@ -8,13 +8,13 @@
 
         mvn archetype:generate -B \
           -DarchetypeGroupId=net.alchim31.maven -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.5 \
-          -DgroupId=com.company -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.company
+          -DgroupId=com.hpds -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.hpds
 
 * example compile/run (run 'mvn scala:help' for full command list) :
 
         mvn scala:compile
 
-        mvn scala:run -DmainClass=com.company.App
+        mvn scala:run -DmainClass=com.hpds.App
 
 # Changes:
 
